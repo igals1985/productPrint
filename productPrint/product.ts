@@ -1,7 +1,7 @@
 ﻿class Product {
     public itemName: string
     private _price: number
-    public fullTime: FullTime = new FullTime
+    public fullTime: FullTime
     public get price(): number {
         return this._price;
     }
@@ -12,7 +12,7 @@
             this._price = x;
         }
     }
-    public toString() {
-        return fullTime.toString() + "item name" + this.itemName + "price:" + this.price 
+    public toString(): string {
+        return this.fullTime.toString() + "item name:" + this.itemName + "    " + "price:" + this.price + "    "
     }
 }

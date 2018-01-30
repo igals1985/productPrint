@@ -1,5 +1,5 @@
 var product1 = new Product();
-var fullTime = new FullTime();
+product1.fullTime = new FullTime();
 product1.fullTime.day = 20;
 product1.fullTime.mount = 10;
 product1.fullTime.year = 2020;

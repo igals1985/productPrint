@@ -33,7 +33,7 @@
             this._seconds = Math.floor(x);
         }
     }
-    public toString() {
-        return super.toString() + "time" + this.hour + ":" + this.minuts + ":" + this.seconds
+    public toString(): string {
+        return super.toString() + "time" + this.hour + ":" + this.minuts + ":" + this.seconds + "    "
     }
 }

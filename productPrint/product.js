@@ -1,6 +1,5 @@
 var Product = /** @class */ (function () {
     function Product() {
-        this.fullTime = new FullTime;
     }
     Object.defineProperty(Product.prototype, "price", {
         get: function () {
@@ -15,7 +14,7 @@ var Product = /** @class */ (function () {
         configurable: true
     });
     Product.prototype.toString = function () {
-        return fullTime.toString() + "item name" + this.itemName + "price:" + this.price;
+        return this.fullTime.toString() + "item name:" + this.itemName + "    " + "price:" + this.price + "    ";
     };
     return Product;
 }());

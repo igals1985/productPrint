@@ -38,7 +38,7 @@ var BasicDate = /** @class */ (function () {
         configurable: true
     });
     BasicDate.prototype.toString = function () {
-        return "date:" + this.day + "." + this.day + "." + this.year;
+        return "date:" + this.day + "." + this.day + "." + this.year + "    ";
     };
     return BasicDate;
 }());

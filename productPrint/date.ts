@@ -34,7 +34,7 @@
     }
 
 
-    public toString() {
-        return "date:" + this.day + "." + this.day + "." + this.year
+    public toString(): string {
+        return "date:" + this.day + "." + this.day + "." + this.year+"    "
     }
 }

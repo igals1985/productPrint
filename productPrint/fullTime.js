@@ -50,7 +50,7 @@ var FullTime = /** @class */ (function (_super) {
         configurable: true
     });
     FullTime.prototype.toString = function () {
-        return _super.prototype.toString.call(this) + "time" + this.hour + ":" + this.minuts + ":" + this.seconds;
+        return _super.prototype.toString.call(this) + "time" + this.hour + ":" + this.minuts + ":" + this.seconds + "    ";
     };
     return FullTime;
 }(BasicDate));
